@@ -61,13 +61,12 @@ body {
     width: 280px;
     height: 400px;
     max-width: 600px;
-    background-color: rgb(68, 71, 151);
-    flex-wrap: wrap;
+   flex-wrap: wrap;
     position: absolute;
     margin-left: -250px;
     border-radius: 20px;
     text-align: center;
-    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(5deg, rgb(33, 33, 37) 0%, rgba(9,9,121,1) 45%, rgb(0, 38, 255) 100%);
 }
 
 .num{
@@ -75,7 +74,7 @@ body {
     height: 120px;
     margin-left: -140px;
     margin-top: -80px;
-    background-color: rgb(60, 27, 150, 0.3);
+    background-color: rgb(60, 27, 150, 0.6);
     text-align: center;
     border-radius: 50%;
 }
@@ -88,7 +87,7 @@ body {
 }
 .cem{
     font-size: 12px;
-    color: rgb(88, 89, 99, 0.5);
+    color: rgb(88, 89, 99, 0.7);
 }
 
 
@@ -99,7 +98,7 @@ body {
     height: 400px;
     background: rgb(255, 255, 255);
     margin-left: 250px;
-    border-radius: 10px;
+    border-radius:  20px 20px;
 
 }
 
