@@ -26,15 +26,15 @@ body {
 }
 
 .bom {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.5);
     margin-top: 70px;
     margin-left: 60px;
     margin-bottom: -20px;
 }
 
 #titulo {
-    color: rgb(224, 204, 204, 0.3);
-    margin-left: 65px;
+    color: rgb(224, 204, 204, 0.8);
+    margin-left: 65px; 
     margin-top: 35px;
     margin-bottom: 100px;
 
@@ -61,12 +61,13 @@ body {
     width: 280px;
     height: 400px;
     max-width: 600px;
-    background-color: rgb(68, 71, 151, 0.5);
+    background-color: rgb(68, 71, 151);
     flex-wrap: wrap;
     position: absolute;
     margin-left: -250px;
     border-radius: 20px;
     text-align: center;
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .num{
@@ -127,6 +128,7 @@ body {
     margin-left: 70px;
     text-align: left;
     margin-bottom: 15px;
+    border-radius: 10px;
 
 }
 
@@ -140,7 +142,7 @@ body {
     margin-left: 80px;
     width: 170px;
     height: 40px;
-    background-color: rgb(159, 250, 250, 0.4);
+    background-color: rgb(159, 250, 250, 0.2);
     margin-left: 70px;
     text-align: left;
     margin-bottom: 15px;
@@ -157,7 +159,7 @@ body {
     margin-left: 80px;
     width: 170px;
     height: 40px;
-    background-color: rgb(240, 255, 250, 1.2);
+    background-color: rgb(239, 239, 241, 0.8);
     ;
     margin-left: 70px;
     text-align: left;
